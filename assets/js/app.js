@@ -1,5 +1,26 @@
 $('.S2-slider').slick({
+    // infinite: true,
     slidesToShow: 3,
+    // slidesToScroll: 0,
+    // responsive: [
+    //   {
+    //     breakpoint: 768,
+    //         settings: {
+    //             slidesToShow: 2,
+    //             slidesToScroll: 1,
+    //     }
+    //   },
+    //   { 
+    //     breakpoint: 480,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 1
+    //     }
+    //   }
+    // ]
+
 });
 
 $('.S3-slider').slick({
@@ -34,18 +55,18 @@ $('.S7-slider').slick({
     dots: true,
     slidesToShow: 1.43,
     responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 1.05
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 1.05
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 1.01
+            }
         }
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1.01
-        }
-      }
     ]
 });
 
@@ -67,7 +88,7 @@ let aTags = document.querySelectorAll("#menu a");
 aTags.forEach((c) => {
     c.addEventListener("click", () => {
         if (open != 0) {
-            menu.style.right ='-100%'; 
+            menu.style.right = '-100%';
             document.body.classList.remove("overflow-y-hidden");
             label.classList.remove("label-switch");
             open--;

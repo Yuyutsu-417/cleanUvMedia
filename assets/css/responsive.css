@@ -76,48 +76,67 @@
         width: 20%
     } */
 
-    .hero-blue{
+    .hero-blue {
         top: 16% !important;
         width: 18% !important;
     }
 
-    .hero-yellow{
+    .hero-yellow {
         top: 11% !important;
         width: 18% !important;
     }
 
-    .hero-orange{
+    .hero-orange {
         width: 18% !important;
         top: 70% !important;
     }
 
-    .hero-green{
+    .hero-green {
         width: 18% !important;
         top: 75% !important;
     }
 
     .hero-svg1 {
-        top: 8% !important; 
+        top: 8% !important;
         left: 35% !important;
         transform: translate(-50%, -50%);
     }
-    
+
     .hero-svg2 {
-        top: 70%  !important;
+        top: 70% !important;
         left: 28% !important;
         transform: translate(-50%, -50%);
     }
-    
+
     .hero-svg3 {
-        top: 17%  !important;
+        top: 17% !important;
         right: 14% !important;
         transform: translate(-50%, -50%);
     }
-    
+
     .hero-svg4 {
-        top: 75%  !important;
+        top: 75% !important;
         right: 25% !important;
         transform: translate(-50%, -50%);
+    }
+
+    .S5-box-btn {
+        border-radius: 5px;
+        border: 2px solid var(--BLACK);
+        background-color: transparent;
+        width: 50% !important;
+        padding: 16px 0px;
+    }
+
+    .S6-green {
+        width: 20% !important;
+        top: 1% !important;
+    }
+
+    .S6-blue {
+        width: 25% !important;
+        bottom: 0 !important;
+        right: 0 !important;
     }
 }
 
@@ -130,6 +149,29 @@
         --fs-l: 31px !important;
         --fs-l1: 44px !important;
         --fs-l2: 55px !important;
+    }
+
+    .S6-blue {
+        width: 35% !important;
+        right: -3%;
+        bottom: -15%;
+    }
+
+    .S6-green {
+        top: 0 !important;
+        width: 35% !important;
+    }
+
+    .S5-col-border {
+        border-right: 2px solid #E6E1CE;
+    }
+
+    .S5-box-btn {
+        border-radius: 5px;
+        border: 2px solid var(--BLACK);
+        background-color: transparent;
+        width: 100%;
+        padding: 16px 0px;
     }
 
     .hero-blue {
@@ -231,12 +273,12 @@
         width: 100%
     }
 
-    .S8-green{
+    .S8-green {
         width: 8% !important;
         bottom: 4% !important;
     }
 
-    .acc-box1{
+    .acc-box1 {
         width: 670px !important;
     }
 
@@ -252,19 +294,19 @@
         left: 32%;
         transform: translate(-50%, -50%);
     }
-    
+
     .hero-svg2 {
         top: 77%;
         left: 27%;
         transform: translate(-50%, -50%);
     }
-    
+
     .hero-svg3 {
         top: 21%;
         right: 13%;
         transform: translate(-50%, -50%);
     }
-    
+
     .hero-svg4 {
         top: 88%;
         right: 29%;
@@ -283,7 +325,7 @@
         --fs-l2: 62px !important;
     }
 
-    .acc-box1{
+    .acc-box1 {
         width: 879px !important;
     }
 

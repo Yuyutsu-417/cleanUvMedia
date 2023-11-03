@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .bg-grey {
     background-color: var(--GREY);
 }
@@ -541,10 +545,6 @@
     margin-bottom: 12px;
 }
 
-.S5-col-border {
-    border-right: 2px solid #E6E1CE;
-}
-
 .S5-row-btn:hover {
     box-shadow: 5px 5px 0px 0px #3C3C3C;
 }
@@ -630,7 +630,7 @@
     background: linear-gradient(125deg, #FFCF23 0%, #FFA723 100%);
     filter: blur(239px);
     top: 0;
-    
+
     right: 0;
 }
 
