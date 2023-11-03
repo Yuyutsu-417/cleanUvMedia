@@ -1,24 +1,5 @@
 $('.S2-slider').slick({
     slidesToShow: 3,
-    slidesToScroll:0,
-    infinite: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            dots: true,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1
-        }
-      }
-    ]
 });
 
 $('.S3-slider').slick({
@@ -62,7 +43,7 @@ $('.S7-slider').slick({
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1.01
         }
       }
     ]
