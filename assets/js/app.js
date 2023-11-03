@@ -2,7 +2,6 @@ $('.S2-slider').slick({
     slidesToShow: 3,
     slidesToScroll:0,
     infinite: true,
-    dots: true,
     responsive: [
       {
         breakpoint: 768,
